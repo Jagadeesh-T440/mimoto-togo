@@ -2,7 +2,7 @@ package io.mosip.mimoto.dto.mimoto;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
-
+import java.util.Map;
 import java.util.List;
 
 @Data
