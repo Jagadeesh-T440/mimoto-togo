@@ -13,7 +13,7 @@ public class WalletBindingInnerReq {
     @Schema(description = "List of Challenges")
     private List<IdpChallangeDto> challengeList;
     @Schema(description = "public key in JWK")
-    private String publicKey;
+    private Map<String, Object> publicKey;
     @Schema(description = "Auth Factory type", allowableValues = {"WLA"})
     private String authFactorType;
     @Schema(description = "IDP format", allowableValues = {"jwt"})
